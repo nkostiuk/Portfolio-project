@@ -47,7 +47,7 @@ p {
 }
 
 .social-element {
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 .social-icon {
@@ -138,5 +138,12 @@ p {
 @media (max-width: 767px) {
   .app-img {
     display: none;
+  }
+  .container {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .heading-section{
+   margin-top: 0;
   }
 }
