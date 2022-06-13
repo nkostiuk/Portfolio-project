@@ -1,5 +1,6 @@
 :root {
   --primary-color: #42b883;
+  --background-color: #f2f2f2;
   --grey: #35495eea;
   --black: #212529;
   --patrick-font: "Patrick Hand SC";
@@ -11,7 +12,6 @@
 
 body {
   font-family: "Roboto";
-  background: #f2f2f2;
 }
 
 h1 {
@@ -51,7 +51,7 @@ p {
 }
 
 .social-icon {
-  width: 30px;
+  width: 35px;
 }
 
 .social-icon-link:hover {
@@ -79,8 +79,10 @@ p {
   /* justify-content: baseline; */
 }
 .content {
-  margin: 60px auto;
+  /* margin: 60px auto; */
+  background: var(--background-color);
 }
+
 .avatar {
   max-width: 200px;
 }
@@ -90,8 +92,17 @@ p {
   max-width: 50%;
 }
 
+.btn-branding {
+  background: var(--primary-color);
+  color: white;
+}
+.btn-branding:hover {
+  background: white;
+  border-color: var(--primary-color);
+}
+
 .heading-section {
-  font-size: 32px;
+  font-size: 36px;
   color: var(--black);
   margin-top: 10px;
 }
@@ -115,15 +126,16 @@ p {
   border-color: var(--primary-color);
   color: #f2f2f2;
 }
-
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .heading-1 {
     font-size: 46px;
   }
   .heading-2 {
     font-size: 21px;
   }
+}
 
+@media (max-width: 767px) {
   .app-img {
     display: none;
   }
