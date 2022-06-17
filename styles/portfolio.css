@@ -19,6 +19,7 @@ h1 {
   font-size: 65px;
   font-family: var(--patrick-font);
 }
+
 h2 {
   font-size: 21px;
 }
@@ -37,6 +38,9 @@ p {
 .font-poppins {
   font-family: "Vibur";
   font-size: 24px;
+}
+.font-roboto {
+  font-family: "Roboto";
 }
 
 .socials-list {
@@ -96,9 +100,16 @@ p {
   background: var(--primary-color);
   color: white;
 }
-.btn-branding:hover {
+.btn-branding .btn-branding-lg:hover {
   background: white;
   border-color: var(--primary-color);
+}
+
+.btn-branding-lg {
+  background: var(--primary-color);
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
 }
 
 .heading-section {
@@ -126,6 +137,12 @@ p {
   border-color: var(--primary-color);
   color: #f2f2f2;
 }
+
+.about-section {
+  margin: 50px auto;
+  max-width: 1200px;
+  padding: 160px 20px;
+}
 @media (max-width: 991px) {
   .heading-1 {
     font-size: 46px;
@@ -143,7 +160,7 @@ p {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
   }
-  .heading-section{
-   margin-top: 0;
+  .heading-section {
+    margin-top: 0;
   }
 }
