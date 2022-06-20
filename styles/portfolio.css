@@ -139,9 +139,13 @@ p {
 }
 
 .about-section {
-  margin: 50px auto;
+  margin: 40px auto;
   max-width: 1200px;
-  padding: 160px 20px;
+  padding: 100px 60px;
+}
+
+.photo-about {
+  max-width: 300px;
 }
 @media (max-width: 991px) {
   .heading-1 {
@@ -162,5 +166,13 @@ p {
   }
   .heading-section {
     margin-top: 0;
+  }
+  .photo-about {
+    margin-top: 30px;
+  }
+
+  .about-section {
+    /* margin: 10px auto; */
+    padding: 30px 20px;
   }
 }
